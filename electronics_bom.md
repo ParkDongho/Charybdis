@@ -2,7 +2,6 @@
 | Part name                         | Amount (4x6) | Amount (3x6) |  Amount (3x5) | Link                                                                                       |
 | --------------------------------- | ------------ | ------------ | ------------  | ------------------------------------------------------------------------------------------ |
 | Splinky                           | 2            | 2            | **2**         | https://github.com/bastardkb/splinky                                                       |
-| Splinky adapter for the Charybdis | 2            | 2            | **2**         | https://github.com/Bastardkb/Elite-C-holder                                                |
 | Cables                            |              |              |               | 28 AWG recommended                                                                         |
 | Audio jack, SMD                   | 2            | 2            | **2**         |                                                                                            |
 | Button, 4x4x1.5                   | 2            | 2            | **2**         | https://www.aliexpress.com/item/1005001304569553.html?spm=a2g0s.9042311.0.0.27424c4dDwgcp7 |
@@ -19,7 +18,7 @@
 | --------------------------------- | ------------ | ------------ | ------------  | ------------------------------------------------------------------------------------------ |
 | Sensor PCB                        | 1            | 1            | **1**         | https://github.com/Bastardkb/charybdis-pmw-sensor                                          |
 | Sensor PCB                        | 1            | 1            | **1**         | see details below                                                                          |
-
+| Splinky adapter for the Charybdis | 2            | 2            | **2**         | https://github.com/Bastardkb/Elite-C-holder                                                |
 
 | Part name                         | Amount (4x6) | Amount (3x6) |  Amount (3x5) | Link                                                                                       |
 | --------------------------------- | ------------ | ------------ | ------------  | ------------------------------------------------------------------------------------------ |
