@@ -1,208 +1,199 @@
-# Table of contents
+# 목차
 
-- [Table of contents](#table-of-contents)
-- [Charybdis - generic](#charybdis---generic)
-  - [BTU Mod](#btu-mod)
-  - [Veichu Bearing Mod](#veichu-bearing-mod)
-  - [Static Bearing Mod](#static-bearing-mod)
-  - [Static Bearing Mod - with screws](#static-bearing-mod---with-screws)
-    - [Upgraded inserts for the Static Bearing Mod](#upgraded-inserts-for-the-static-bearing-mod)
-  - [Trackpad mod for the Charybdis](#trackpad-mod-for-the-charybdis)
-  - [Alternative sensors](#alternative-sensors)
-- [Charybdis](#charybdis)
-  - [Palm Rest](#palm-rest)
-    - [Straight mod](#straight-mod)
-    - [Slope mod](#slope-mod)
-  - [Modular adjustable tenting stand for Charybdis/Scylla](#modular-adjustable-tenting-stand-for-charybdisscylla)
-    - [Base](#base)
-    - [Variant with wrist wrest](#variant-with-wrist-wrest)
-- [Charybdis Nano](#charybdis-nano)
-  - [Midglow PCB for the Charybdis Nano tents](#midglow-pcb-for-the-charybdis-nano-tents)
-  - [Trackpad mod for the Charybdis Nano organic tents](#trackpad-mod-for-the-charybdis-nano-organic-tents)
-  - [Chair Mount Plate](#chair-mount-plate)
-  - [Modular Thumb Cluster](#modular-thumb-cluster)
-  - [Trackball cover - Sensor\_cover](#trackball-cover---sensor_cover)
-  - [Trackball cover - Ball\_cover](#trackball-cover---ball_cover)
+- [목차](#목차)
+- [카립디스 - 일반](#카립디스---일반)
+  - [BTU 모드](#btu-모드)
+  - [Veichu 베어링 모드](#veichu-베어링-모드)
+  - [정적 베어링 모드](#정적-베어링-모드)
+  - [나사 사용 정적 베어링 모드](#나사-사용-정적-베어링-모드)
+    - [업그레이드된 정적 베어링 모드 인서트](#업그레이드된-정적-베어링-모드-인서트)
+  - [카립디스를 위한 트랙패드 모드](#카립디스를-위한-트랙패드-모드)
+  - [대체 센서](#대체-센서)
+- [카립디스](#카립디스)
+  - [손목 받침대](#손목-받침대)
+    - [스트레이트 모드](#스트레이트-모드)
+    - [슬로프 모드](#슬로프-모드)
+  - [카립디스/스킬라를 위한 모듈형 조절 텐팅 스탠드](#카립디스스킬라를-위한-모듈형-조절-텐팅-스탠드)
+    - [베이스](#베이스)
+    - [손목 받침대가 있는 변형](#손목-받침대가-있는-변형)
+- [카립디스 나노](#카립디스-나노)
+  - [카립디스 나노 텐트를 위한 Midglow PCB](#카립디스-나노-텐트를-위한-midglow-pcb)
+  - [카립디스 나노 유기 텐트를 위한 트랙패드 모드](#카립디스-나노-유기-텐트를-위한-트랙패드-모드)
+  - [의자 장착 플레이트](#의자-장착-플레이트)
+  - [모듈형 엄지 클러스터](#모듈형-엄지-클러스터)
+  - [트랙볼 커버 - Sensor_cover](#트랙볼-커버---sensor_cover)
+  - [트랙볼 커버 - Ball_cover](#트랙볼-커버---ball_cover)
 
-# Charybdis - generic
+# 카립디스 - 일반
 
+## BTU 모드
 
-## BTU Mod
-
-Very smooth, *very expensive*.
+매우 부드럽고, *매우 비쌉니다*.
 
 ![](../../pics/1ac.png)
 
-If you want to use BTUs rather than bearings, you will need to print the bottom adapter btu model, and source some 4.8mm BTUs.
+베어링 대신 BTU를 사용하려면 바닥 어댑터 btu 모델을 인쇄하고 4.8mm BTU를 구해야 합니다.
 
-The adapter model is designed around those: https://nl.rs-online.com/web/p/ball-transfer-units/7431408/.
+어댑터 모델은 다음을 기준으로 설계되었습니다: https://nl.rs-online.com/web/p/ball-transfer-units/7431408/.
 
-Print the file in the `btu` folder.
+`btu` 폴더에서 파일을 인쇄하세요.
 
-## Veichu Bearing Mod
+## Veichu 베어링 모드
 
-The veichu bearings are a cheaper alternative to the BTUs. 
+Veichu 베어링은 BTU보다 저렴한 대안입니다. 
 
-They need to be press-fitted into the 3d print, as they have no screws.
+이들은 나사가 없기 때문에 3D 프린트에 눌러서 끼워야 합니다.
 
-Print the file in the `veichu` folder.
+`veichu` 폴더에서 파일을 인쇄하세요.
 
+## 정적 베어링 모드
 
-## Static Bearing Mod
-
-Pretty smooth, *less expensive*.
+꽤 부드럽고, *덜 비쌉니다*.
 
 ![](../../pics/1ad.jpeg)
 
-You can use this option if you don't want to use bearings or buy the expensive BTU part. 
-There are files for 3.175mm (1/8"), and 2.5mm balls, you will need to print 3 of them as well as the bottom btu model. 
+베어링을 사용하지 않거나 비싼 BTU 부품을 구매하지 않으려면 이 옵션을 사용할 수 있습니다. 
+3.175mm (1/8") 및 2.5mm 볼에 대한 파일이 있으며, 각각 3개와 바닥 btu 모델을 인쇄해야 합니다.
 
-Press the balls into the model then insert them into the modified [bottom btu model](btu/adapter_btu_bottom_v32.stl).
+볼을 모델에 눌러 끼운 후 수정된 [바닥 btu 모델](btu/adapter_btu_bottom_v32.stl)에 삽입하세요.
 
-Links:
-- [Bottom BTU Model](btu/adapter_btu_bottom_v32.stl)
-- [Inserts](static-bearing) (choose either 3.175mm or 2.5mm)
+링크:
+- [바닥 BTU 모델](btu/adapter_btu_bottom_v32.stl)
+- [인서트](static-bearing) (3.175mm 또는 2.5mm 중 선택)
 
-## Static Bearing Mod - with screws
+## 나사 사용 정적 베어링 모드
 
-Uses screws instead of pression fit to hold the ball inserts in the model. You will need M3 4mm screws.
+모델에 볼 인서트를 고정하기 위해 나사를 사용합니다. M3 4mm 나사가 필요합니다.
 
-Two versions : with 3.175mm balls, and 4mm balls.
+두 가지 버전이 있습니다: 3.175mm 볼과 4mm 볼.
 
-Print:
-- [Bottom BTU Model](static-bearing-screws/bottom.stl)
-- [3.175mm insert](static-bearing-screws/balls-3.1mm/inserts.stl)
-- [4mm insert](static-bearing-screws/balls-4mm/inserts.stl)
+인쇄:
+- [바닥 BTU 모델](static-bearing-screws/bottom.stl)
+- [3.175mm 인서트](static-bearing-screws/balls-3.1mm/inserts.stl)
+- [4mm 인서트](static-bearing-screws/balls-4mm/inserts.stl)
 
+### 업그레이드된 정적 베어링 모드 인서트
 
-### Upgraded inserts for the Static Bearing Mod
+인서트가 약간 더 높아 5mm 높이이며, 베어링 볼을 위한 오목함이 더 두드러집니다.
 
-A bit taller of inserts, at 5mm tall, and a little more pronounced recess for the bearing ball.
+결과적으로 베어링 볼의 스냅이 약간 덜 강렬하고, 볼이 쉴 수 있는 더 많은 표면 각도를 제공하여 볼을 더 안전하게 고정합니다.
 
-The snap of the bearing ball is a little less intense as a result and gives more surface angle for the ball to rest on, resulting in a more secure seat for the ball.
-
-Print:
-- [Bottom BTU Model](static-bearing-screws/bottom.stl)
+인쇄:
+- [바닥 BTU 모델](static-bearing-screws/bottom.stl)
 - [tall-inserts.stl](static-bearing-screws/balls-3.1mm/tall-inserts.stl)
 
-Print and snap off supports. Sand the burrs if necessary.
+지지대를 인쇄하고 잘라냅니다. 필요하면 버를 샌딩합니다.
 
+## 카립디스를 위한 트랙패드 모드
 
-## Trackpad mod for the Charybdis
+`mods/trackpad/trackball-holder` 폴더의 2개 파일을 인쇄하세요. 트랙볼 홀더 대신 설치합니다.
+트랙패드를 sda, scl, vcc, gnd에 연결합니다.
 
-Print the 2 files in the `mods/trackpad/trackball-holder` folder. Install in place of the trackball holder.
-Connect the trackpad to sda, scl, vcc, gnd.
+필요한 하드웨어:
 
-
-Required hardware:
-
-
-| Part name                         | Amount | Link                                                                                    |
-| --------------------------------- | ------ | --------------------------------------------------------------------------------------- |
-| M4 8mm Torx Screw                 | 1      | Conrad                                                                                  |
-| M4 screw insert, M4 X D6.0 X L5.0 | 1      | https://fr.aliexpress.com/item/4000232925592.html?spm=a2g0s.12269583.0.0.6aef4f282LZO4v |
+| 부품 이름                        | 수량 | 링크                                                                                     |
+| --------------------------------- | ---- | ---------------------------------------------------------------------------------------- |
+| M4 8mm Torx 나사                 | 1    | Conrad                                                                                   |
+| M4 나사 인서트, M4 X D6.0 X L5.0 | 1    | https://fr.aliexpress.com/item/4000232925592.html?spm=a2g0s.12269583.0.0.6aef4f282LZO4v |
 
 ![](../../pics/1ai.png)
 
+## 대체 센서
 
-## Alternative sensors
+PMW3389 및 ADNS9800 센서 PCB를 수용하기 위해 [`bottom_adapter_alternative_sensors`](./bottom_adapter_alternative_sensors/README.md) 디렉터리에 파일이 있습니다.
 
-There are files in the [`bottom_adapter_alternative_sensors`](./bottom_adapter_alternative_sensors/README.md) directory to accomodate PMW3389 and ADNS9800 sensor PCBs.
+# 카립디스
 
+## 손목 받침대
 
-# Charybdis
+이 손목 받침대는 키보드 하단에 배치되어 손목을 지지합니다. 경사진 버전과 직선 버전이 있습니다.
 
-## Palm Rest 
+각 버전에는 3개의 파일이 있습니다:
 
-Those palm rests are to be placed at the bottom of the keyboard, to support your palms. There are both sloped and straight versions.
+- `STL`: 3D 프린팅용
+- `DWG`: 레이저 절단용
+- `SLDPRT`: Solidworks 소스 파일
 
-For each version, there are 3 files:
+카립디스와 스킬라의 파일은 다릅니다:
+- 카립디스의 경우 [4x6-palm-rest](4x6-palm-rest)의 파일을 사용합니다.
+- 스킬라의 경우 [손목 받침대 폴더](https://github.com/Bastardkb/Scylla/tree/main/files/palm-rest)에서 파일을 사용합니다.
 
-- `STL`: for 3D printing
-- `DWG`: for laser cutting
-- `SLDPRT`: solidworks source file
-
-The files for the Charybdis and Scylla are different:
-- For the Charybdis, use the files in [4x6-palm-rest](4x6-palm-rest)
-- For the Scylla, use the files from the [palm rest folder](https://github.com/Bastardkb/Scylla/tree/main/files/palm-rest)
-
-### Straight mod
+### 스트레이트 모드
 ![](../../pics/1aq.JPEG)
 
-### Slope mod
+### 슬로프 모드
 ![](../../pics/1ar.JPEG)
 
-## Modular adjustable tenting stand for Charybdis/Scylla
+## 카립디스/스킬라를 위한 모듈형 조절 텐팅 스탠드
 
-Details: [tenting-stand-with-wrist-pads/readme.md](tenting-stand-with-wrist-pads/readme.md)
+자세한 내용: [tenting-stand-with-wrist-pads/readme.md](tenting-stand-with-wrist-pads/readme.md)
 
-### Base
+### 베이스
 
-![tenting stand](tenting-stand-with-wrist-pads/assets/stand.jpg)
+![텐팅 스탠드](tenting-stand-with-wrist-pads/assets/stand.jpg)
 
-### Variant with wrist wrest
+### 손목 받침대가 있는 변형
 
-![tending stand with wrist wrests](tenting-stand-with-wrist-pads/assets/home-with-pads.jpg)
+![손목 받침대가 있는 텐딩 스탠드](tenting-stand-with-wrist-pads/assets/home-with-pads.jpg)
 
+# 카립디스 나노
 
-# Charybdis Nano
+## 카립디스 나노 텐트를 위한 Midglow PCB
 
-## Midglow PCB for the Charybdis Nano tents
-
-Check repo here: https://github.com/Bastardkb/Charybdis-nano-tent-glow
+레포 확인: https://github.com/Bastardkb/Charybdis-nano-tent-glow
 
 ![](../../pics/1ag.jpg)
 
-**Please note only the organic tent is compatible with the midglow rgb !**
+**유기 텐트만 midglow rgb와 호환됩니다!**
 
+## 카립디스 나노 유기 텐트를 위한 트랙패드 모드
 
-## Trackpad mod for the Charybdis Nano organic tents
+`mods/trackpad/3x5-tent` 폴더의 2개 파일을 인쇄하세요. 유기 텐트에 설치하고 sda, scl, vcc, gnd에 연결합니다.
 
-Print the 2 files in the `mods/trackpad/3x5-tent` folder. Install on the organic tent, connect to sda, scl, vcc, gnd.
+필요한 하드웨어:
 
-Required hardware:
+| 부품 이름                        | 수량 | 링크                                                                                     |
+| --------------------------------- | ---- | ---------------------------------------------------------------------------------------- |
+| M4 8mm Torx 나사                 | 5    | Conrad                                                                                   |
+| M4 나사 인서트, M4 X D6.0 X L5.0 | 5    | https://fr.aliexpress.com/item/4000232925592.html?spm=a2g0s.
 
-
-| Part name                         | Amount | Link                                                                                    |
-| --------------------------------- | ------ | --------------------------------------------------------------------------------------- |
-| M4 8mm Torx Screw                 | 5      | Conrad                                                                                  |
-| M4 screw insert, M4 X D6.0 X L5.0 | 5      | https://fr.aliexpress.com/item/4000232925592.html?spm=a2g0s.12269583.0.0.6aef4f282LZO4v |
+12269583.0.0.6aef4f282LZO4v |
 
 ![](../../pics/1ah.png)
 
-## Chair Mount Plate
-Alternate bottom plate for mounting to a chair or desk using standard camera mounting equipment. Fits 1/4 inch mounting bolt (1/4-20 UNC).
-Found in the `3x5 nano/chairMountPlate` folder.  
+## 의자 장착 플레이트
+
+표준 카메라 장착 장비를 사용하여 의자 또는 책상에 장착하기 위한 대체 바닥 플레이트입니다. 1/4 인치 장착 볼트(1/4-20 UNC)와 호환됩니다.
+`3x5 nano/chairMountPlate` 폴더에 있습니다.  
 
 ![](../../pics/1aj.png)
 
-## Modular Thumb Cluster
-Based on the 3x5 Skeletyl/Charybdis Nano. This has a slightly modified plate, a 3 switch thumb cluster (ala Skeletyl), a 2 switch thumb cluster with the mount for a trackball/trackpad (ala Charybdis Nano) and a modified main body
+## 모듈형 엄지 클러스터
 
-Note: Below picture uses a standard Skeletyl main body that was cut to make room for the modular thumb cluster but a purpose printed main body should give better results!
+3x5 Skeletyl/카립디스 나노를 기반으로 합니다. 약간 수정된 플레이트, 3 스위치 엄지 클러스터(Skeletyl 스타일), 트랙볼/트랙패드 장착을 위한 2 스위치 엄지 클러스터(카립디스 나노 스타일) 및 수정된 메인 바디가 포함됩니다.
 
+참고: 아래 사진은 모듈형 엄지 클러스터를 위한 공간을 만들기 위해 잘라낸 표준 Skeletyl 메인 바디를 사용했지만, 목적에 맞게 인쇄된 메인 바디가 더 나은 결과를 제공할 것입니다!
 
-| Part name                         | Amount | Link                                                                                    |
-| --------------------------------- | ------ | --------------------------------------------------------------------------------------- |
-| M4 8mm Torx Screw                 | 2      | Conrad                                                                                  |
-| M4 screw insert, M4 X D6.0 X L5.0 | 2      | https://fr.aliexpress.com/item/4000232925592.html?spm=a2g0s.12269583.0.0.6aef4f282LZO4v |
+| 부품 이름                        | 수량 | 링크                                                                                     |
+| --------------------------------- | ---- | ---------------------------------------------------------------------------------------- |
+| M4 8mm Torx 나사                 | 2    | Conrad                                                                                   |
+| M4 나사 인서트, M4 X D6.0 X L5.0 | 2    | https://fr.aliexpress.com/item/4000232925592.html?spm=a2g0s.12269583.0.0.6aef4f282LZO4v |
 
 ![](../../pics/MTC.png)
 
-## Trackball cover - Sensor_cover
+## 트랙볼 커버 - Sensor_cover
 
-
-A trackball sensor cover to be used in combination with the original bottom cover. Protects the sensor from outside elements.
+원래의 바닥 커버와 결합하여 사용되는 트랙볼 센서 커버입니다. 센서를 외부 요소로부터 보호합니다.
 
 ![](./trackball-cover/pics/full-sensor-cover.png)
 
-File is in [trackball-cover](trackball-cover).
+파일은 [트랙볼 커버](trackball-cover)에 있습니다.
 
-## Trackball cover - Ball_cover
+## 트랙볼 커버 - Ball_cover
 
-Use in place of adapter_v2_top_v75.stl to prevent balls from falling.
-Adjusting the height for [static-beraing-screws](static-bearing-screws).
-Rotating the ball may be difficult at first, but you will get used to it by putting it on and taking it off a few times and rotating it.
-The screw holes of this part have an inner diameter (5mm) that allows you to glue M3 (x5x5) threaded inserts.
+공이 떨어지지 않도록 adapter_v2_top_v75.stl 대신 사용합니다.
+[정적 베어링 나사](static-bearing-screws)를 위한 높이를 조정합니다.
+처음에는 공을 회전시키기 어려울 수 있지만 몇 번 끼우고 빼면서 회전시키면 익숙해질 것입니다.
+이 부분의 나사 구멍은 M3 (x5x5) 나사 인서트를 접착할 수 있는 내부 직경(5mm)을 가지고 있습니다.
 
 ![](./trackball-cover/pics/ball-cover.jpg)
