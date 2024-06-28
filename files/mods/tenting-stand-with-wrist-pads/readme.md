@@ -1,78 +1,77 @@
-# Modular adjustable tenting stand for Charybdis/Scylla
+# 카립디스/스킬라를 위한 모듈형 조절 텐팅 스탠드
 
-## Required hardware
+## 필요한 하드웨어
 
-| Part name | Amount | Amount with wrist supports | Link |
+| 부품 이름 | 수량 | 손목 받침대 포함 수량 | 링크 |
 |---|---|---|---|
-| M4 nuts | 8 | 12 | Anywhere |
-| M4 bolts 14+mm length | 8  | 12 | Anywhere |
-| For wrist support generic mouse gel pads from ali or amazon | 2 | 2 | [Ali](https://www.aliexpress.com/item/1005003137481242.html) or [Amzn](https://a.co/d/4aokloi) |
+| M4 너트 | 8 | 12 | 어디서나 |
+| M4 볼트 14mm 이상 길이 | 8  | 12 | 어디서나 |
+| 손목 받침대를 위한 일반 마우스 젤 패드 | 2 | 2 | [알리](https://www.aliexpress.com/item/1005003137481242.html) 또는 [아마존](https://a.co/d/4aokloi) |
 
+## 베이스
 
-## Base
+![텐팅 스탠드](assets/stand.jpg)
 
-![tenting stand](assets/stand.jpg)
+## 손목 받침대가 있는 변형
 
-## Variant with wrist wrest
+![손목 받침대가 있는 텐팅 스탠드](assets/home-with-pads.jpg)
 
-![tending stand with wrist wrests](assets/home-with-pads.jpg)
+## 인쇄
 
-## Printing
+### 기본 부품
 
-### Base parts
-
-- [Bottom - bottom.3mf](bottom.3mf)
-- [Top plate - plate.3mf](plate.3mf) - This must be mirrored for another side
+- [하단 - bottom.3mf](bottom.3mf)
+- [상단 플레이트 - plate.3mf](plate.3mf) - 다른 쪽을 위해서는 반드시 미러링해야 합니다.
   
-  Alternatively you can print remixed bottom case plates for Scylla/Charybdis, mirror appropriately if required. This should reduce several millimeters.
+  또는 Scylla/카립디스를 위한 수정된 하단 케이스 플레이트를 인쇄할 수 있습니다. 필요한 경우 적절히 미러링하세요. 이렇게 하면 몇 밀리미터 줄일 수 있습니다.
   
-  - [Scylla bottom plate hinges](left-case-bottom-scylla.3mf)
-  - [Charybdis bottom plate with hinges](right-case-bottom-charybdis.3mf)
-  - [Charybdis 3x5+3 Low bottom plate with hinges](3x5+3_low_tent_plate.stl)
+  - [Scylla 하단 플레이트 힌지](left-case-bottom-scylla.3mf)
+  - [카립디스 하단 플레이트 힌지](right-case-bottom-charybdis.3mf)
+  - [카립디스 3x5+3 저가형 하단 플레이트 힌지](3x5+3_low_tent_plate.stl)
 
-  Print them vertically like so: ![print-position](assets/print-position.png)
+  이렇게 세로로 인쇄하세요: ![인쇄 위치](assets/print-position.png)
   
-- [Tenting arm - tenting-arm.3mf](tenting-arm.3mf)
+- [텐팅 암 - tenting-arm.3mf](tenting-arm.3mf)
 
-### Additional parts for wrist wrest
+### 손목 받침대를 위한 추가 부품
 
-See folder `wrist-pad-variant-parts` for more files
+`wrist-pad-variant-parts` 폴더에서 더 많은 파일을 확인하세요.
 
-- [Bottom plate with attachment](wrist-pad-variant-parts/bottom-with-pad-connector.3mf) - This must be mirrored for another side, also ensure pads arm attachment has supports.
-- [Top part that hold gel pad - pads-holder.3mf](wrist-pad-variant-parts/pads-holder.3mf)
-- [Bottom part that connects to the arm - pads-base.3mf](wrist-pad-variant-parts/pads-base.3mf)
-  - [Bottom part that connects to the arm, but shorter by 5mm - pads-base-short.stl](wrist-pad-variant-parts/pads-base-short.stl)
-- [Connecting arm - pads-arm.3mf](wrist-pad-variant-parts/pads-arm.3mf)
-  - [Connecting arm, 50mm longer - pads-arm-extended.stl](wrist-pad-variant-parts/pads-arm-extended.stl)
-- [Optional hight extension - pads-optional-extension.3mf](wrist-pad-variant-parts/pads-optional-extension.3mf)
+- [부착 기능이 있는 하단 플레이트](wrist-pad-variant-parts/bottom-with-pad-connector.3mf) - 다른 쪽을 위해서는 반드시 미러링해야 하며, 패드 암 부착부에 지지대가 있어야 합니다.
+- [젤 패드를 고정하는 상단 부품 - pads-holder.3mf](wrist-pad-variant-parts/pads-holder.3mf)
+- [암에 연결되는 하단 부품 - pads-base.3mf](wrist-pad-variant-parts/pads-base.3mf)
+  - [암에 연결되는 짧아진 하단 부품 - pads-base-short.stl](wrist-pad-variant-parts/pads-base-short.stl)
+- [연결 암 - pads-arm.3mf](wrist-pad-variant-parts/pads-arm.3mf)
+  - [50mm 더 긴 연결 암 - pads-arm-extended.stl](wrist-pad-variant-parts/pads-arm-extended.stl)
+- [선택적 높이 확장 - pads-optional-extension.3mf](wrist-pad-variant-parts/pads-optional-extension.3mf)
 
-Updated alternatives
+업데이트된 대안
 
-- [Short arm for angled pad base - pads-arm-short-for-angled-base.3mf](wrist-pad-variant-parts/pads-arm-short-for-angled-base.3mf)
-- [Angled bottom part that connect to the arm - pads-base-angled.3mf](wrist-pad-variant-parts/pads-base-angled.3mf)
+- [각진 패드 베이스를 위한 짧은 암 - pads-arm-short-for-angled-base.3mf](wrist-pad-variant-parts/pads-arm-short-for-angled-base.3mf)
+- [암에 연결되는 각진 하단 부품 - pads-base-angled.3mf](wrist-pad-variant-parts/pads-base-angled.3mf)
 
-## Source
+## 소스
 
-If you wanna play around with models, I've attached fusion files:
+모델을 가지고 놀고 싶다면, Fusion 파일을 첨부했습니다:
 
-- [Charybdis adjustable plate v3.f3d](charybdis%20adjustable%20plate%20v3.f3d) 
+- [카립디스 조절 플레이트 v3.f3d](charybdis%20adjustable%20plate%20v3.f3d) 
 - [pads.f3d](wrist-pad-variant-parts/pads.f3d)
 
-## Gallery
+## 갤러리
 
-![lowest](assets/lowest.jpg)
-![highest](assets/highest.jpg)
-![under](assets/under.jpg)
+![최저 높이](assets/lowest.jpg)
+![최고 높이](assets/highest.jpg)
+![아래](assets/under.jpg)
 
-![top-with-pads](assets/top-with-pads.jpg)
-![front-with-pads](assets/front-with-pads.jpg)
-![under-with-pads](assets/under-with-pads.jpg)
+![패드가 있는 상단](assets/top-with-pads.jpg)
+![패드가 있는 앞면](assets/front-with-pads.jpg)
+![패드가 있는 아래](assets/under-with-pads.jpg)
 
-![angled-pad](assets/angled-pad.png)
-![with-angled-pads](assets/with-angled-pads.png)
+![각진 패드](assets/angled-pad.png)
+![각진 패드 장착](assets/with-angled-pads.png)
 
-### Charybdis 3x5+3 Low
+### 카립디스 3x5+3 저가형
 
-![Charybdis 3x5+3_low_bare](assets/charybdis_3x5+3_low_adjustable_tent.jpg)
-![Charybdis 3x5+3_low_complete](assets/charybdis_3x5+3_low_front.jpg)
-![Charybdis 3x5+3_low_side](assets/charybdis_3x5+3_low_side.jpg)
+![카립디스 3x5+3 저가형 텐트](assets/charybdis_3x5+3_low_adjustable_tent.jpg)
+![카립디스 3x5+3 저가형 전면](assets/charybdis_3x5+3_low_front.jpg)
+![카립디스 3x5+3 저가형 측면](assets/charybdis_3x5+3_low_side.jpg)
