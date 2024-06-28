@@ -1,111 +1,103 @@
 # Charybdis
 
+통합 트랙볼이 있는 인체공학적 키보드.
 
-An ergonomic keyboard with integrated trackball.
+고품질의 맞춤형 부품으로 제작된 완전한 마우스 대체 솔루션.
 
-Engineered to be a full mouse replacement solution with high-quality, custom-developed components.
+4x6, 3x6 "미니", 3x5 "나노" 버전이 있습니다.
 
-There are 4x6, 3x6 "Mini" and 3x5 "Nano" versions.
-
-Made to be used with the [Scylla](https://github.com/Bastardkb/Scylla), [TKB Mini](https://github.com/Bastardkb/TBK-Mini) or [Skeletyl](https://github.com/Bastardkb/Skeletyl) on the other half.
+다른 반쪽에는 [Scylla](https://github.com/Bastardkb/Scylla), [TKB Mini](https://github.com/Bastardkb/TBK-Mini) 또는 [Skeletyl](https://github.com/Bastardkb/Skeletyl)과 함께 사용하도록 제작되었습니다.
 
 ![](pics/1ae.jpg)
 
 ![](pics/1af.jpg)
 
+# 필요한 부품
 
-# Required components
+## 3D 프린트 - 케이스
 
+STL 파일은 이 Github 리포지토리의 `files` 폴더에 포함되어 있습니다.
 
-## 3d prints - cases
+온라인 설명서에 링크된 자세한 케이스 프린팅 방법을 참조하세요.
 
-The STL files are included in this Github repository, in the `files` folder.
+구축하는 키보드에 따라 다른 프린트가 필요합니다. 버전에 따라 이름이 약간 다를 수 있습니다.
 
-Please find detailed instructions on how to print the case on the online instructions linked below.
+이 리포지토리는 항상 최신 3D 모델 버전으로 업데이트되며 이전 버전과 호환됩니다. 예를 들어, `charybdis.stl`은 `charybdis3_v131.stl`을 참조할 수 있습니다.
 
+**3D 프린트 - 4x6**
 
-Depending on which keyboard you are building, you will need different prints. There is a list in the table below - depending on the version number, the names will slightly vary. 
+| 설명            | 파일                     | 참고 사항                                                                                           |
+| --------------- | ------------------------ | ---------------------------------------------------------------------------------------------------- |
+| 오른쪽 케이스   | `4x6/charybdis.stl`      |                                                                                                      |
+| 왼쪽 케이스     |                          | [Scylla 리포지토리](https://github.com/Bastardkb/Scylla)에서 다운로드                                |
+| 오른쪽 플레이트 | `4x6/plate_shield2.stl`  |                                                                                                      |
+| 왼쪽 플레이트   |                          | [Scylla 리포지토리](https://github.com/Bastardkb/Scylla)에서 다운로드                                |
+| 어댑터 - 상단   | `4x6/adapter_top.stl`    | 4x6과 3x5용 어댑터가 다르니 4x6 폴더에서 적합한 것을 선택하세요!                                    |
+| 어댑터 - 하단   | `adapter_bottom.stl`     |                                                                                                      |
+| 텐트 - 오른쪽   | `4x6/tent_alien.stl`     | 선택 사항: 30도 텐트                                                                                |
+| 텐트 - 왼쪽     | `4x6/tent_alien.stl`     | 선택 사항: 30도 텐트, 왼쪽은 파일을 미러링하세요                                                    |
 
-This repository is always updated with the latest version of the 3d models, and they are compatible with previous versions. For example, `charybdis.stl` might reference `charybdis3_v131.stl`.
+**3D 프린트 - 3x6**
 
-**3d prints - 4x6**
+| 설명            | 파일                       | 참고 사항                                                                                                      |
+| --------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| 오른쪽 케이스   | `3x6 mini/Cmini.stl`       |                                                                                                               |
+| 왼쪽 케이스     |                            | [TBK Mini 리포지토리](https://github.com/bastardkb/tbk-Mini)에서 다운로드, 왼쪽은 파일을 미러링하세요           |
+| 오른쪽 플레이트 | `3x6 mini/plate.stl`       |                                                                                                               |
+| 왼쪽 플레이트   |                            | [TBK Mini 리포지토리](https://github.com/bastardkb/tbk-Mini)에서 다운로드, 왼쪽은 파일을 미러링하세요           |
+| 어댑터 - 상단   | `3x5 nano/adapter_top.stl` | 3x6 미니는 3x5 나노와 동일한 상단 어댑터를 사용합니다                                                           |
+| 어댑터 - 하단   | `adapter_bottom.stl`       |                                                                                                               |
+| 텐트 - 오른쪽   | `3x6 mini/tent.stl`        | 선택 사항: 30도 텐트                                                                                         |
+| 텐트 - 왼쪽     | `3x6 mini/tent.stl`        | 선택 사항: 30도 텐트, 왼쪽은 파일을 미러링하세요                                                             |
 
-| Description      | File                    | Notes                                                                                           |
-| ---------------- | ----------------------- | ----------------------------------------------------------------------------------------------- |
-| Right case       | `4x6/charybdis.stl`     |                                                                                                 |
-| Left case        |                         | Download from the [Scylla repository](https://github.com/Bastardkb/Scylla)                      |
-| Right plate      | `4x6/plate_shield2.stl` |                                                                                                 |
-| Left plate       |                         | Download from the [Scylla repository](https://github.com/Bastardkb/Scylla)                      |
-| Adapter - top    | `4x6/adapter_top.stl`   | There is a different adapter for the 4x6 and 3x5, make sure to grab the one in the 4x6 folder ! |
-| Adapter - bottom | `adapter_bottom.stl`    |                                                                                                 |
-| Tent - right     | `4x6/tent_alien.stl`    | Optional 30 degree tent                                                                         |
-| Tent - left      | `4x6/tent_alien.stl`    | Optional 30 degree tent, mirror the file for left                                               |
+**3D 프린트 - 3x5**
 
+| 설명            | 파일                           | 참고 사항                                                                                                      |
+| --------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| 오른쪽 케이스   | `3x5 nano/charybdisnano.stl`   |                                                                                                               |
+| 왼쪽 케이스     |                                | [Skeletyl 리포지토리](https://github.com/bastardkb/skeletyl)에서 다운로드, 왼쪽은 파일을 미러링하세요           |
+| 오른쪽 플레이트 | `3x5 nano/plate.stl`           |                                                                                                               |
+| 왼쪽 플레이트   |                                | [Skeletyl 리포지토리](https://github.com/bastardkb/skeletyl)에서 다운로드, 왼쪽은 파일을 미러링하세요           |
+| 어댑터 - 상단   | `3x5 nano/adapter_top.stl`     | 4x6과 3x5용 어댑터가 다르니 3x5 폴더에서 적합한 것을 선택하세요!                                                |
+| 어댑터 - 하단   | `adapter_bottom.stl`           |                                                                                                               |
+| 텐트 - 오른쪽   | `3x5 nano/tent/alien/tent.stl` | 선택 사항: 텐트*                                                                                               |
+| 텐트 - 왼쪽     | `3x5 nano/tent/alien/tent.stl` | 선택 사항: 텐트, 왼쪽은 파일을 미러링하세요*                                                                  |
 
-**3d prints - 3x6**
+*텐트를 프린트하는 경우, Charybdis Nano에는 여러 가지가 있습니다. 가장 강하고 프린트하기 쉬운 최신 디자인인 에일리언 버전을 사용하는 것이 좋습니다. 30도와 15도 버전이 모두 제공됩니다.
 
-| Description      | File                       | Notes                                                                                                    |
-| ---------------- | -------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Right case       | `3x6 mini/Cmini.stl`       |                                                                                                          |
-| Left case        |                            | Download from the [TBK Mini repository](https://github.com/bastardkb/tbk-Mini), mirror the file for left |
-| Right plate      | `3x6 mini/plate.stl`       |                                                                                                          |
-| Left plate       |                            | Download from the [TBK Mini repository](https://github.com/bastardkb/tbk-Mini), mirror the file for left |
-| Adapter - top    | `3x5 nano/adapter_top.stl` | The 3x6 Mini uses the same top adapter as the 3x5 Nano                                                   |
-| Adapter - bottom | `adapter_bottom.stl`       |                                                                                                          |
-| Tent - right     | `3x6 mini/tent.stl`        | Optional 30 degree tent                                                                                  |
-| Tent - left      | `3x6 mini/tent.stl`        | Optional 30 degree tent, mirror the file for left                                                        |
+## BastardKB에서 키트 구입
 
-**3d prints - 3x5**
-
-| Description      | File                           | Notes                                                                                                    |
-| ---------------- | ------------------------------ | -------------------------------------------------------------------------------------------------------- |
-| Right case       | `3x5 nano/charybdisnano.stl`   |                                                                                                          |
-| Left case        |                                | Download from the [Skeletyl repository](https://github.com/bastardkb/skeletyl), mirror the file for left |
-| Right plate      | `3x5 nano/plate.stl`           |                                                                                                          |
-| Left plate       |                                | Download from the [Skeletyl repository](https://github.com/bastardkb/skeletyl), mirror the file for left |
-| Adapter - top    | `3x5 nano/adapter_top.stl`     | There is a different adapter for the 4x6 and 3x5, make sure to grab the one in the 3x5 folder !          |
-| Adapter - bottom | `adapter_bottom.stl`           |                                                                                                          |
-| Tent - right     | `3x5 nano/tent/alien/tent.stl` | Optional tent*                                                                                           |
-| Tent - left      | `3x5 nano/tent/alien/tent.stl` | Optional tent, mirror the file for left*                                                                 |
-
-*If you are printing tents, there are multiple ones available for the Charybdis Nano. We recommend using the latest design which is the strongest and easiest to print - the alien version. There are both 30 and 15 degree versions available.
-
-
-## Get a kit from BastardKB
-
-You can get a full Kit, including case and all PCBs and electronics required on the shop:
+케이스와 모든 PCB 및 전자 부품을 포함한 전체 키트를 상점에서 구입할 수 있습니다:
 https://bastardkb.com/
 
-If you want to print the case yourself, you can also get just the electronics Kit.
+케이스를 직접 프린트하려는 경우 전자 부품 키트만 구입할 수도 있습니다.
 
+## 전자 부품
 
-## Electronic components
+전자 부품을 직접 조달하려면 [BOM](electronics_bom.md) 파일에서 BOM을 참조하십시오.
 
-If you are sourcing the electronic components yourself, you can find a BOM in the [BOM](electronics_bom.md) file.
+## 모드
 
-## Mods
-
-There are some mods to add BTUs or ball bearings, check the *mods* folder.
-
+BTU 또는 볼 베어링을 추가하는 몇 가지 모드가 있으니 *mods* 폴더를 확인하세요.
 
 ![](pics/1ac.png)
 
-# Build guide
+# 제작 가이드
 
-You can find detailed instruction on the online documentation linked below.
+자세한 설명은 아래 링크된 온라인 설명서에서 확인할 수 있습니다.
 
-# Links
+# 링크
 
-- Discord: https://bastardkb.com/discord
-- Website: https://bastardkb.com/
-- Docs: https://docs.bastardkb.com
+- 디스코드: https://bastardkb.com/discord
+- 웹사이트: https://bastardkb.com/
+- 설명서: https://docs.bastardkb.com
 
-# Support me on Patreon
+# Patreon에서 후원
 
-If you like the keyboard, please consider helping me with Patreon: https://www.patreon.com/bastardkb
+키보드가 마음에 드셨다면, Patreon을 통해 저를 도와주세요: https://www.patreon.com/bastardkb
 
-I post regular updates and hindsight on my work. I work full time on keyboard innovation, and this helps a lot !
+정기적으로 업데이트와 작업의 통찰을 게시하고 있습니다. 키보드 혁신에 전념하고 있으며, 많은 도움이 됩니다!
 
-# License 
+# 라이선스
 
-This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+이 작업물은 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License에 따라 라이선스가 부여됩니다.
